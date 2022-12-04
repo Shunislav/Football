@@ -50,7 +50,7 @@ public class DBClass extends SQLiteOpenHelper {
 
     }
 
-    void add_users(String home, String guest, String goalh,String goalg)
+    void goal(String home, String guest, String goalh,String goalg)
     {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues cv = new ContentValues();

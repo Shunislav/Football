@@ -25,7 +25,7 @@ public class Edit extends AppCompatActivity {
 
         add_button.setOnClickListener(v -> {
             DBClass mdb = new DBClass(Edit.this);
-            mdb.add_users(input_h.getText().toString().trim(),
+            mdb.goal(input_h.getText().toString().trim(),
                     input_g.getText().toString().trim(),
                     input_goalh.getText().toString().trim(),
                     input_goalg.getText().toString().trim());
